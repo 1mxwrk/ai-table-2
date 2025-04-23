@@ -15,6 +15,8 @@ import {
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
 import axios from 'axios';
 
+import '@xyflow/react/dist/style.css';
+
 interface GraphData {
   nodes: Node[];
   edges: Edge[];
