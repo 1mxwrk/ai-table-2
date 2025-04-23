@@ -1,6 +1,8 @@
 import { Box, Container, Text } from "@chakra-ui/react"
 import { createFileRoute } from "@tanstack/react-router"
 
+import Workspace from "@/components/Workspace/Workflow"
+import GraphEditor from "@/components/Workspace/GraphEditor"
 import useAuth from "@/hooks/useAuth"
 
 export const Route = createFileRoute("/_layout/")({
@@ -13,12 +15,14 @@ function Dashboard() {
   return (
     <>
       <Container maxW="full">
-        <Box pt={12} m={4}>
+        {/* <Box pt={12} m={4}>
           <Text fontSize="2xl" truncate maxW="sm">
             Hi, {currentUser?.full_name || currentUser?.email} 👋🏼
           </Text>
-          <Text>Welcome back, nice to see you again!</Text>
-        </Box>
+          <Text>Welcome back, nice DDD to see you again!</Text>
+        </Box> */}
+        {/* <Workspace></Workspace> */}
+        <GraphEditor></GraphEditor>
       </Container>
     </>
   )
