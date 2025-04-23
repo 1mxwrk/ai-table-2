@@ -1,5 +1,6 @@
 export POSTGRES_PASSWORD=postgres_pwd
 
+SECRET_KEY=-oU1bGsQoOsVVjPzLbqa1eaAVBvD8qmosD2OUnzwApc
 export FIRST_SUPERUSER_PASSWORD=asdpwd123
 export POSTGRES_PASSWORD=changethis
 
