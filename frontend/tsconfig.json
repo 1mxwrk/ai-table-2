@@ -21,7 +21,7 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src/**/*.ts", "tests/**/*.ts", "playwright.config.ts"],
+  "include": ["src/**/*.ts", "tests/**/*.ts", "playwright.config.ts", "src/components/Workspace/nodes/PositionLoggerNode.tsx"],
   "references": [
     {
       "path": "./tsconfig.node.json"
