@@ -1,0 +1,25 @@
+/* RoundAddButton.css */
+.add-node-button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 110px;
+    right: 15px;
+
+    background-color: #33384d; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underlines from text */
+    /* display: inline-block; */
+    font-size: 12px; /* Adjust font size as needed */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border-radius: 20%; /* Make it round */
+    cursor: pointer; /* Change cursor on hover */
+  }
+  
+  .add-node-button:hover {
+    background-color: #48575f; 
+  }
