@@ -19,7 +19,8 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "baseUrl": "."
   },
   "include": ["src/**/*.ts", "tests/**/*.ts", "playwright.config.ts", "src/components/Workspace/nodes/PositionLoggerNode.tsx"],
   "references": [
